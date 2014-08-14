@@ -1,5 +1,12 @@
 {
+    "user":{
+        "name": "pi",
+        "group": "pi",
+        "home": "/home/pi",
+        "password": "pi"
+    },
     "run_list":[
+        "recipe[pi_user]",
         "recipe[apt-get]",
         "recipe[git]"
     ]
