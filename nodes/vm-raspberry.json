@@ -13,6 +13,7 @@
         "recipe[pi_user]",
         "recipe[apt-get]",
         "recipe[git]",
-        "recipe[python]"
+        "recipe[python]",
+        "recipe[rpigpio]"
     ]
 }
